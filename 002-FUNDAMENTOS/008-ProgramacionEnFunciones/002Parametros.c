@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-//En C las funciones tienen que haber sido declaradas antes de llamarlas.
 int sumar(int op1, int op2){
     
     int operador1 = op1;

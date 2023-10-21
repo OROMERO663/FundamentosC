@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main (int argc,char *argv[]){
-    printf("mayor que: %i \n", (4>3)); //si es cierto nos va a dar un 1, si es falso da un cero
+     //si es cierto nos van a dar un 1, si es falso dan un 0
+    printf("mayor que: %i \n", (4>3));
     printf("menor que: %i \n", (4<3));
     
     printf("mayor o igual que: %i \n", (4<=3));

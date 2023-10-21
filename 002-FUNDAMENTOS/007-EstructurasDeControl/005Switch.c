@@ -2,7 +2,10 @@
 
 int main (int argc,char *argv[]){
     
-    int diaSemana = 1;
+    int diaSemana;
+    printf("Escribe el numero de dia de la semana de hoy: ");
+    scanf("%d", &diaSemana);
+    
     switch(diaSemana){
         case 1:
             printf("Hoy es lunes \n");

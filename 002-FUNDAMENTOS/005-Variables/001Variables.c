@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main (int argc,char *argv[]){
-    int edad = 45;//si pones un INT por ejemplo, a la hora de imprimir tienes que decir que lo que imprimes es un entero
+    int edad = 45;
     printf("Mi edad es de %i años \n", edad);
     
     float altura =1.78;
@@ -11,7 +11,7 @@ int main (int argc,char *argv[]){
     printf("Mi letra favorita es la %c \n", letra);
     //array de caracteres
     char cadena[] = "Oscar Romero";
-    printf("Mi nombre es %s \n", cadena);//el %s es de string
+    printf("Mi nombre es %s \n", cadena);
     
     return 0;
 }

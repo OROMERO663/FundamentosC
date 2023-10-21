@@ -2,11 +2,15 @@
 
 int main (int argc,char *argv[]){
     
-    FILE *archivo; //apertura de un archivo
+    //apertura de un archivo
+    FILE *archivo;
     
-    archivo = fopen("agenda.txt","w"); //el archivo tiene nombre y se abre en modo escritura
-    fprintf(archivo,"Esto es un texto de prueba \n"); //escribo en el archivo
-    fclose(archivo); //cierro el archivo
+    //el archivo tiene nombre y se abre en modo escritura
+    archivo = fopen("agenda.txt","w");
+    //escribo en el archivo
+    fprintf(archivo,"Este es un nuevo mensaje \n");
+    //cierro el archivo
+    fclose(archivo);
     return 0;
 }
 
